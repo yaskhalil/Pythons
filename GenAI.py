@@ -1,3 +1,18 @@
+# Portfolio Optimization and Financial Analysis Tool
+
+This Python script provides a comprehensive financial analysis and portfolio optimization tool. It fetches historical price data for a predefined list of stocks and cryptocurrencies using `yfinance`, calculates key metrics like **RSI**, **Bollinger Bands**, **MACD**, and **Beta**, and optimizes portfolios using **Modern Portfolio Theory (MPT)** and the **Black-Litterman model**. The tool also includes visualization functions to plot metrics and insights, helping users make informed investment decisions. Robust error handling ensures smooth execution even with missing or invalid data.
+
+## Features:
+- **Portfolio Optimization**: Maximizes Sharpe Ratio using MPT.
+- **Black-Litterman Model**: Combines market equilibrium with investor views.
+- **Technical Indicators**: RSI, Bollinger Bands, MACD, and Beta.
+- **Visualizations**: Plots for trends, volatility, and portfolio performance.
+- **Error Handling**: Gracefully handles missing or invalid data.
+
+## Dependencies:
+- `yfinance`, `pandas`, `numpy`, `matplotlib`, `scipy`
+
+
 import tkinter as tk
 from tkinter import ttk
 from tkinter import Text, Label
